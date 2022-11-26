@@ -1,0 +1,54 @@
+# Declare and assign variables in python
+
+int_var = 10
+float_var = 18.25
+string_var = 'ineuron batch 2'# or another way we can put same thing in the double codes
+bool_var = True # if we want to assign false then it should be like False
+
+# Function in Python for Output
+# Function does what they might or might not accept the parameters
+print("Hello World !!!!")
+
+
+# Print Variable Values in Python
+print(" Value of int_var    = ", int_var, "   - Result Done !!")
+print(" Value of float_var  = ", float_var, " - Result Done !!")
+print(" Value of string_var = ", string_var, "- Result Done !!")
+print(" Value of bool_var   = ", bool_var, "  - Result Done !!")
+
+# How to check the datatype of any variable in Python
+# We can use the type function
+print("Type of int_var :", type(int_var))
+print("Type of float_var :", type(float_var))
+print("Type of string_var :", type(string_var))
+print("Type of bool_var :", type(bool_var))
+
+#How to do the type casting in python?
+# int(),  float(), str(), boo()
+int_var = int_var + 10  
+#int_var = 10 + 10 and in next step int_var = 20
+casted_int_var = float(int_var)
+#int_var = float(int_var)
+casted_float_var = int(float_var)
+print("Int to Float Typecasting for int_var = ",casted_int_var)
+print("Int to Float Typecasting for flaot_var = ",casted_float_var)
+ 
+numeric_str = "123"
+#numeric_str = numeric_str + 50 # is it valid?
+#error hence not valid
+
+numeric_str = int(numeric_str) + 50
+print("Value of numeric_str =",numeric_str)
+
+# How to take the inputs in Python?
+# We can use input() function
+#name = input()
+#age = input()
+#print("User Name = ", name)
+#print("User Age = ", age)
+
+# Another way to take the user inputs
+name = input("Enter value for Name")
+age = input("Enter Value for Age")
+print("User Name = ", name)
+print("User Age = ", age)
