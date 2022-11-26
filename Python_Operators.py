@@ -27,3 +27,6 @@ empty_str = ' '
 # If we use '-' symbol then error (unsupported) will appear As it is not defined
 full_name = str_data + " " + "Wagh"
 print("Full Name: ", full_name)
+
+multiply_numeric_str = "Tejal Wagh, " * 5
+print("Print multiply numeric str: ", multiply_numeric_str)
