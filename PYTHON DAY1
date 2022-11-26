@@ -52,3 +52,6 @@ name = input("Enter value for Name")
 age = input("Enter Value for Age")
 print("User Name = ", name)
 print("User Age = ", age)
+
+print("Type of Name=",type(name))
+print("Type of Age=",type(age))
