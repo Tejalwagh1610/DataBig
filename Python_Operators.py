@@ -59,3 +59,14 @@ print(" Result for a>=b is : ", a>=b)
 print(" Result for a<=b is : ", a<=b)
 
 
+# Logical Operators (Here we try to compare the final result of expression)
+# and -> Returns True if both the Statements are True
+# or -> Returns True if one of the Statements is True
+# not -> Reverse the Result, returns False if the result is True
+
+m = 10
+n = 8
+print("If m>10 and n<10 Result", m>10 and n<10) # False and True -> False
+print("If m>20 or n<10 Result", m>10 or n<10) # False or True -> True
+print("If m>10 not n<10 Result", not(m>10 and n<10))
+# not(False and True) -> not(False) ->True
