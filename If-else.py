@@ -19,3 +19,15 @@ a = 40
 if a==50:
     print("Yes, a is equals to 50!!")
 print("Bye!!")
+
+# Nested IF-Else
+marks = 58
+
+if marks>=90:
+    print("Grade A+")
+elif marks>=80 and marks<90:
+    print("Grade A")
+elif marks>=70 and marks<88:
+    print("Grade B")
+else:
+    print("Grade C")
